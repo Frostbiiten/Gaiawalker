@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f473299bffaf73d4aa23b881703e34fa, type: 3}
+  m_Name: PlayerStatsObj
+  m_EditorClassIdentifier: 
+  <groundBaseSpeed>k__BackingField: 6
+  <groundTopSpeed>k__BackingField: 16.5
+  <groundAcceleration>k__BackingField: 0.25
+  <groundDeceleration>k__BackingField: 2
+  <groundFriction>k__BackingField: 0.5
+  <groundTurnSpeed>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.8
+      inSlope: -0.43661025
+      outSlope: -0.43661025
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.07333046
+    - serializedVersion: 3
+      time: 19.996668
+      value: 0.07555361
+      inSlope: -0.0030912473
+      outSlope: -0.0030912473
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.77235407
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  <fallDistThreshold>k__BackingField: 0.1
+  <jumpForce>k__BackingField: 23
+  <airSpeed>k__BackingField: 5
+  <gravity>k__BackingField: {x: 0, y: -1.2, z: 0}
+  <airDrag>k__BackingField: 0.04
+  <landDistThreshold>k__BackingField: 0.15
+  <dashSpeed>k__BackingField: 50
+  <dashStartDelay>k__BackingField: 0.5
+  <dashTurnSpeed>k__BackingField: 0.01
+  <maxDashTime>k__BackingField: 0.7
+  <enemyDetectionDistance>k__BackingField: 40
+  <enemyEngageDistance>k__BackingField: 25
+  <dodgeSpeed>k__BackingField: 50
+  <dodgeTime>k__BackingField: 0.125
+  <dodgeCooldown>k__BackingField: 0.5
+  <dodgeCurve>k__BackingField:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.3577755
+      inSlope: 27.91228
+      outSlope: 27.91228
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.06608145
+    - serializedVersion: 3
+      time: 0.15513438
+      value: 0.991814
+      inSlope: 0.007168666
+      outSlope: 0.007168666
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.33171457
+      outWeight: 0.333208
+    - serializedVersion: 3
+      time: 1
+      value: 0.2778576
+      inSlope: -27.578316
+      outSlope: -27.578316
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.029428354
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

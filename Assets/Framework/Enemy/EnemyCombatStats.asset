@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122cfac077505c24cbbef00617cbfe2a, type: 3}
+  m_Name: EnemyCombatStats
+  m_EditorClassIdentifier: 
+  <maxHP>k__BackingField: 10
+  <parryRange>k__BackingField: {x: 0, y: 0}
+  <deathHitstop>k__BackingField: 0.7
+  attacks:
+  - <id>k__BackingField: 1
+    <windup>k__BackingField: 0.4
+    <hitTime>k__BackingField: 0.25
+    <cooldown>k__BackingField: 1.25
+    <hitstop>k__BackingField: 0.15
+    <damage>k__BackingField: 1
+    <knockback>k__BackingField: {x: 0, y: 1, z: 5}
+    <velocity>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0009865146
+        value: 4.998776
+        inSlope: 0.46576133
+        outSlope: 0.46576133
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0.39226726
+      - serializedVersion: 3
+        time: 0.502879
+        value: 64.77558
+        inSlope: 1494.5763
+        outSlope: -910.77734
+        tangentMode: 1
+        weightedMode: 3
+        inWeight: 0.142318
+        outWeight: 0.034491938
+      - serializedVersion: 3
+        time: 1.979459
+        value: -0.35036483
+        inSlope: 0.008111026
+        outSlope: 0.008111026
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <parryable>k__BackingField: 1
+    <multiHit>k__BackingField: 0
+  - <id>k__BackingField: 0
+    <windup>k__BackingField: 0.55
+    <hitTime>k__BackingField: 0.65
+    <cooldown>k__BackingField: 2.5
+    <hitstop>k__BackingField: 0.1
+    <damage>k__BackingField: 2
+    <knockback>k__BackingField: {x: 0, y: 30, z: 30}
+    <velocity>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0009865146
+        value: 4.998776
+        inSlope: 0.38294446
+        outSlope: 0.38294446
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0.8829241
+      - serializedVersion: 3
+        time: 0.2729931
+        value: -22.497108
+        inSlope: -114.74009
+        outSlope: -114.74009
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.5765622
+        outWeight: 0.48598897
+      - serializedVersion: 3
+        time: 1.0323853
+        value: 66.36286
+        inSlope: -1.0733236
+        outSlope: 0.70311123
+        tangentMode: 1
+        weightedMode: 3
+        inWeight: 0.5049096
+        outWeight: 0.3410041
+      - serializedVersion: 3
+        time: 1.979459
+        value: -0.35036483
+        inSlope: 0.008111026
+        outSlope: 0.008111026
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <parryable>k__BackingField: 0
+    <multiHit>k__BackingField: 0
+  - <id>k__BackingField: 2
+    <windup>k__BackingField: 0
+    <hitTime>k__BackingField: 0.02
+    <cooldown>k__BackingField: 0.8
+    <hitstop>k__BackingField: 0.3
+    <damage>k__BackingField: 1.25
+    <knockback>k__BackingField: {x: 0, y: 0, z: 0}
+    <velocity>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.000025210902
+        value: 38.16966
+        inSlope: -623.59607
+        outSlope: -623.59607
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0.04187333
+      - serializedVersion: 3
+        time: 0.806514
+        value: -0.23939514
+        inSlope: -0.14614096
+        outSlope: -0.14614096
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <parryable>k__BackingField: 0
+    <multiHit>k__BackingField: 0

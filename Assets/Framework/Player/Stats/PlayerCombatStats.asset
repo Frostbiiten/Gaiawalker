@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122cfac077505c24cbbef00617cbfe2a, type: 3}
+  m_Name: PlayerCombatStats
+  m_EditorClassIdentifier: 
+  <maxHP>k__BackingField: 15
+  <parryRange>k__BackingField: {x: 0.007, y: 0.17}
+  <deathHitstop>k__BackingField: 99
+  attacks:
+  - <id>k__BackingField: 0
+    <windup>k__BackingField: 0.125
+    <hitTime>k__BackingField: 0.1
+    <cooldown>k__BackingField: 0.07
+    <hitstop>k__BackingField: 0.1
+    <damage>k__BackingField: 1
+    <knockback>k__BackingField: {x: 0, y: 0, z: 2}
+    <velocity>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.0032168329
+        value: 20
+        inSlope: -4.3844037
+        outSlope: -4.3844037
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 0.4678409
+        outWeight: 0.4733832
+      - serializedVersion: 3
+        time: 0.46024847
+        value: 0.00524953
+        inSlope: 0.047715582
+        outSlope: 0.047715582
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <parryable>k__BackingField: 0
+    <multiHit>k__BackingField: 0
+  - <id>k__BackingField: 1
+    <windup>k__BackingField: 0.2
+    <hitTime>k__BackingField: 0.02
+    <cooldown>k__BackingField: 0.4
+    <hitstop>k__BackingField: 0.2
+    <damage>k__BackingField: 2
+    <knockback>k__BackingField: {x: 0, y: 0, z: 3}
+    <velocity>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.000025210902
+        value: 38.16966
+        inSlope: -623.59607
+        outSlope: -623.59607
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0.04187333
+      - serializedVersion: 3
+        time: 0.806514
+        value: -0.23939514
+        inSlope: -0.14614096
+        outSlope: -0.14614096
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <parryable>k__BackingField: 0
+    <multiHit>k__BackingField: 0
+  - <id>k__BackingField: 2
+    <windup>k__BackingField: 0.03
+    <hitTime>k__BackingField: 0.02
+    <cooldown>k__BackingField: 0.2
+    <hitstop>k__BackingField: 0.3
+    <damage>k__BackingField: 2
+    <knockback>k__BackingField: {x: 0.2, y: 0, z: 0}
+    <velocity>k__BackingField:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.000025210902
+        value: 38.16966
+        inSlope: -623.59607
+        outSlope: -623.59607
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0.04187333
+      - serializedVersion: 3
+        time: 0.806514
+        value: -0.23939514
+        inSlope: -0.14614096
+        outSlope: -0.14614096
+        tangentMode: 0
+        weightedMode: 3
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    <parryable>k__BackingField: 0
+    <multiHit>k__BackingField: 0
